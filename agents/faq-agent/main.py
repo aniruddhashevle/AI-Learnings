@@ -97,7 +97,7 @@ print("\nType 'exit' or 'quit' to stop conversation.\n")
 while True:
     user_input = input("You: ")
 
-    if user_input.lower() in ["exit", "quit", "q"]:
+    if user_input.lower() in ["exit", "quit"]:
         print("Goodbye!")
         break
 
